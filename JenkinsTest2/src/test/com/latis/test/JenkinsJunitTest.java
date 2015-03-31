@@ -10,12 +10,14 @@ public class JenkinsJunitTest {
 	@Test
 	public void test() {
 		int count = new Count().returnCount("abc");
+		
 		assertEquals(count, 3);
 	}
 	
 	@Test
 	public void test2() {
 		int num = 1;
+		
 		assertEquals(num, 1);
 	}
 
