@@ -23,7 +23,7 @@ public class JenkinsJunitTest {
 	@Test
 	public void test3() {
 		int num = 1;		
-		assertEquals(num, 2);
+		assertEquals(num, 1);
 	}
 
 
