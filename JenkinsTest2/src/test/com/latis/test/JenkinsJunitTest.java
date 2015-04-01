@@ -16,9 +16,15 @@ public class JenkinsJunitTest {
 	
 	@Test
 	public void test2() {
-		int num = 1;
-		
+		int num = 1;		
 		assertEquals(num, 1);
 	}
+	
+	@Test
+	public void test3() {
+		int num = 1;		
+		assertEquals(num, 2);
+	}
+
 
 }
