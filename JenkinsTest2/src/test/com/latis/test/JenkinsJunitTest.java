@@ -24,6 +24,10 @@ public class JenkinsJunitTest {
 	public void test3() {
 		int num = 1;		
 		assertEquals(num, 1);
+		
+		
+		
+		
 	}
 
 
